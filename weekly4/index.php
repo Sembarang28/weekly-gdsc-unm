@@ -3,7 +3,7 @@ header('Content-Type: application/json; charset=utf8');
 $servername = 'localhost';
 $username = 'root';
 $password = '';
-$database = 'tes';
+$database = 'mahasiswa';
 
 $koneksi = mysqli_connect($servername, $username, $password, $database);
 
